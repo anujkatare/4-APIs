@@ -1,0 +1,49 @@
+[
+  { "class": 10, "subject": "Science", "chapter": "Chemical-Reactions", "startDate": "2024-01-01", "endDate": "2024-01-05" },
+  { "class": 10, "subject": "Science", "chapter": "Acids-Bases-and-Salts", "startDate": "2024-01-06", "endDate": "2024-01-10" },
+  { "class": 10, "subject": "History", "chapter": "Rise-of-Nationalism", "startDate": "2024-01-11", "endDate": "2024-01-15" },
+  { "class": 10, "subject": "History", "chapter": "Nationalism-in-India", "startDate": "2024-01-16", "endDate": "2024-01-20" },
+  { "class": 10, "subject": "Geography", "chapter": "Resources-and-Development", "startDate": "2024-01-21", "endDate": "2024-01-25" },
+
+  { "class": 9, "subject": "Math", "chapter": "Number-Systems", "startDate": "2024-02-01", "endDate": "2024-02-05" },
+  { "class": 9, "subject": "Math", "chapter": "Polynomials", "startDate": "2024-02-06", "endDate": "2024-02-10" },
+  { "class": 9, "subject": "Science", "chapter": "Atoms-and-Molecules", "startDate": "2024-02-11", "endDate": "2024-02-15" },
+  { "class": 9, "subject": "Science", "chapter": "Structure-of-Atom", "startDate": "2024-02-16", "endDate": "2024-02-20" },
+  { "class": 9, "subject": "History", "chapter": "French-Revolution", "startDate": "2024-02-21", "endDate": "2024-02-25" },
+
+  { "class": 8, "subject": "History", "chapter": "From-Trade-to-Territory", "startDate": "2024-03-01", "endDate": "2024-03-05" },
+  { "class": 8, "subject": "History", "chapter": "Ruling-the-Countryside", "startDate": "2024-03-06", "endDate": "2024-03-10" },
+  { "class": 8, "subject": "Civics", "chapter": "Indian-Constitution", "startDate": "2024-03-11", "endDate": "2024-03-15" },
+  { "class": 8, "subject": "Geography", "chapter": "Resources", "startDate": "2024-03-16", "endDate": "2024-03-20" },
+  { "class": 8, "subject": "Science", "chapter": "Cell-Structure", "startDate": "2024-03-21", "endDate": "2024-03-25" },
+
+  { "class": 7, "subject": "Math", "chapter": "Integers", "startDate": "2024-04-01", "endDate": "2024-04-05" },
+  { "class": 7, "subject": "Math", "chapter": "Fractions", "startDate": "2024-04-06", "endDate": "2024-04-10" },
+  { "class": 7, "subject": "Geography", "chapter": "Inside-Our-Earth", "startDate": "2024-04-11", "endDate": "2024-04-15" },
+  { "class": 7, "subject": "History", "chapter": "Medieval-India", "startDate": "2024-04-16", "endDate": "2024-04-20" },
+  { "class": 7, "subject": "Science", "chapter": "Nutrition-in-Plants", "startDate": "2024-04-21", "endDate": "2024-04-25" },
+
+  { "class": 6, "subject": "Math", "chapter": "Whole-Numbers", "startDate": "2024-05-01", "endDate": "2024-05-05" },
+  { "class": 6, "subject": "Math", "chapter": "Playing-with-Numbers", "startDate": "2024-05-06", "endDate": "2024-05-10" },
+  { "class": 6, "subject": "Science", "chapter": "Components-of-Food", "startDate": "2024-05-11", "endDate": "2024-05-15" },
+  { "class": 6, "subject": "History", "chapter": "What-Where-How", "startDate": "2024-05-16", "endDate": "2024-05-20" },
+  { "class": 6, "subject": "Civics", "chapter": "Understanding-Diversity", "startDate": "2024-05-21", "endDate": "2024-05-25" },
+
+  { "class": 5, "subject": "Math", "chapter": "Decimals", "startDate": "2024-06-01", "endDate": "2024-06-05" },
+  { "class": 5, "subject": "Science", "chapter": "States-of-Matter", "startDate": "2024-06-06", "endDate": "2024-06-10" },
+  { "class": 5, "subject": "EVS", "chapter": "Plants-and-Animals", "startDate": "2024-06-11", "endDate": "2024-06-15" },
+  { "class": 5, "subject": "History", "chapter": "Early-Humans", "startDate": "2024-06-16", "endDate": "2024-06-20" },
+  { "class": 5, "subject": "Geography", "chapter": "Maps", "startDate": "2024-06-21", "endDate": "2024-06-25" },
+
+  { "class": 4, "subject": "Math", "chapter": "Multiplication", "startDate": "2024-07-01", "endDate": "2024-07-05" },
+  { "class": 4, "subject": "Science", "chapter": "Human-Body", "startDate": "2024-07-06", "endDate": "2024-07-10" },
+  { "class": 4, "subject": "EVS", "chapter": "Water", "startDate": "2024-07-11", "endDate": "2024-07-15" },
+  { "class": 4, "subject": "Geography", "chapter": "Directions", "startDate": "2024-07-16", "endDate": "2024-07-20" },
+  { "class": 4, "subject": "History", "chapter": "Ancient-Tools", "startDate": "2024-07-21", "endDate": "2024-07-25" },
+
+  { "class": 3, "subject": "Math", "chapter": "Addition", "startDate": "2024-08-01", "endDate": "2024-08-05" },
+  { "class": 3, "subject": "Science", "chapter": "Living-Things", "startDate": "2024-08-06", "endDate": "2024-08-10" },
+  { "class": 3, "subject": "EVS", "chapter": "Our-Family", "startDate": "2024-08-11", "endDate": "2024-08-15" },
+  { "class": 3, "subject": "Geography", "chapter": "Our-Earth", "startDate": "2024-08-16", "endDate": "2024-08-20" },
+  { "class": 3, "subject": "History", "chapter": "Past-and-Present", "startDate": "2024-08-21", "endDate": "2024-08-25" }
+]
