@@ -27,43 +27,39 @@ app.get('/', (req, res)=>{
 
 app.get('/api/v1/chapters', (req, res) => {
 
-let filteredArray = []
+if(req.query.class && req.query.subject && req.query.chapter && req.query.startDate && req.query.endDate){
+      const filteredArray = data
+.filter(item => (Number(req.query.class) === item.class))
+.filter(item => req.query.subject === item.subject)
+.filter(item => req.query.chapter === item.chapter)
+.filter(item => req.query.startDate === item.startDate)
+.filter(item => req.query.endDate === item.endDate)
 
-data.forEach((item) => {
-
-    if(req.query.class){
-        if(Number(req.query.class) === item.class){
-            if(req.query.subject){
-                if(req.query.subject === item.subject){
-                    if(req.query.chapter){
-                        if(req.query.chapter === item.chapter){
-                            if(req.query.startDate){
-                                if(req.query.startDate === item.startDate){
-                                   if(req.query.endDate){
-                                    if(req.query.endDate === item.endDate){
-                                        filteredArray.push(item)
-                                    }
-                                   }else{
-                                    filteredArray.push(item)
-                                   }
-                                }
-                            }else{
-                                filteredArray.push(item)
-                            }
-                        }  
-                    }else{
-                        filteredArray.push(item)
-                    }
-                }  
-            }else{
-            filteredArray.push(item)
-            }
-        
-        }
-    }
-
-})
 res.send(filteredArray)
+}else if(req.query.limit){
+    const array = []
+    let count = 0
+    data.forEach((item) => {
+        if(count < req.query.limit){
+            count++
+           array.push(item)
+        }
+    })
+    res.send(array)
+}else if(req.query.page){
+    const array = []
+    let count = 0
+    data.forEach((item) => {
+        if(count < req.query.page*10){
+            count++
+           array.push(item)
+        }
+    })
+    res.send(array)
+}else{
+    res.send(data)
+}
+
 })
 
 app.post('/api/v1/chapters', (req, res) => {
