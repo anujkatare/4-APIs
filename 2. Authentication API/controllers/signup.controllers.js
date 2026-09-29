@@ -2,9 +2,9 @@ import {User} from '../models/user.models.js'
 
 const signup = async (req, res, next) => {
     try {
-         const {name, email, password} = req.body;
+         const {name, email, password, role} = req.body;
 
-         if(!name || !email || !password){
+         if(!name || !email || !password || !role){
             return res.status(400).json({
                 success: false,
                 message: 'name or email or password not found'
@@ -15,7 +15,8 @@ const signup = async (req, res, next) => {
             {
                 name,
                 email,
-                password
+                password,
+                role
             }
          );
 
@@ -24,7 +25,8 @@ const signup = async (req, res, next) => {
             message: 'User signedup',
             data: {
                 name,
-                email
+                email,
+                role
             }
          })
     } catch(error) {

@@ -43,7 +43,7 @@ const login = async (req, res , next) => {
         return res.status(200).json({
             success: true,
             message: 'user loggedin',
-            data: [loggedinUser.name, loggedinUser.email, accessToken]
+            data: [loggedinUser.name, loggedinUser.email,loggedinUser.role, accessToken]
         })
     } catch(error) {
         next(error);
